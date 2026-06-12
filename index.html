@@ -10,14 +10,32 @@
 </head>
 
 <body>
-    
+
     <header>
 
         <h1 class="logo">My Book Store</h1>
-
-
-
+        <button id="menu-btn" class="menu-btn" style="color: #fafafa;">
+            <i class="fa-solid fa-bars"></i>
+        </button>
         <ul class="nav-links">
+            <hr>
+            <a href="#">
+                <i></i>
+                الكتب الأكثر مبيعًا
+            </a>
+            <hr>
+
+            <a href="#">
+                <i></i>
+                كتب وصلت حديثًا
+            </a>
+            <hr>
+
+            <a href="#">
+                <i></i>
+                كافة الكتب
+            </a>
+            <hr>
             <li>
                 <a href="index.html">
                     <i class="fa-solid fa-house"></i>
@@ -43,11 +61,70 @@
 
     </header>
 
-    <div>
-        <h2 style="text-align: right; font-size: 30px; color:aliceblue; margin: 15px;">الأكثر مبيعًا</h2>
-        <div id="card-container"></div>
+    <div class="sidebar" id="sidebar">
+
+        <button id="close-btn" class="close-btn" style="color: #fafafa ;">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <hr>
+
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            الصفحة الرئيسية
+        </a>
+        <hr>
+        <a href="#">
+            <i class="fa-solid fa-cart-shopping">
+                <span id="cart-countSidebar">0</span>
+            </i>
+            السلة
+        </a>
+
+
+        <hr>
+        <a href="#">
+            <i class="fa-solid fa-user"></i>
+            الحساب
+        </a>
+        <hr>
+        <a href="#">
+            <i></i>
+            الكتب الأكثر مبيعًا
+        </a>
+        <hr>
+        <hr>
+        <a href="#">
+            <i></i>
+            كتب وصلت حديثًا
+        </a>
+        <hr>
+        <hr>
+        <a href="#">
+            <i></i>
+            كافة الكتب
+        </a>
+        <hr>
+
+        <button class="logout-btn" style="border:none; background:none; color: #c82333; font-size: 16px;">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            تسجيل الخروج
+        </button>
     </div>
 
+
+    <section>
+        <div>
+            <img src="">
+        </div>
+    </section>
+
+
+    <section>
+        <div>
+            <h2 style="text-align: right; font-size: 30px; color:aliceblue; margin: 15px;">الأكثر مبيعًا</h2>
+            <div id="card-container"></div>
+        </div>
+    </section>
 
 
 

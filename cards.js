@@ -1,3 +1,16 @@
+const menuBtn = document.getElementById("menu-btn");
+const closeBtn = document.getElementById("close-btn");
+const sidebar = document.getElementById("sidebar");
+
+menuBtn.addEventListener("click", () => {
+    sidebar.classList.add("active");
+});
+
+closeBtn.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+});
+
+
 const container = document.getElementById("card-container");
 containerStyle(container);
 
@@ -29,7 +42,10 @@ books.forEach(book => {
 
     cartButton.addEventListener("click", () => {
         addToCart(book);
+        updateCartCount();
+        renderCart();
     });
+
 
     /*favButton.addEventListener("click", () => {
       //  console.log("favorite");

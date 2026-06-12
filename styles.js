@@ -6,17 +6,26 @@ function containerStyle(container) {
 }
 
 function cardStyle(card) {
-    card.style.width = "220px";
+    card.style.width = "100%";
+    card.style.maxWidth = "220px";
     card.style.padding = "15px";
-    card.style.margin = "15px";
+    //card.style.margin = "15px";
     card.style.border = "1px solid rgba(226, 220, 220, 0.18)";
     card.style.borderRadius = "12px";
     card.style.boxShadow = "0 2px 8px rgba(0,0,0,0.1)";
     card.style.textAlign = "center";
-    card.style.backgroundColor = "rgba(255, 255, 255, 0.1);";
+    card.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
     card.style.backdropFilter = "blur(10px)";
     card.style.display = "flex";
     card.style.flexDirection = "column";
+    card.style.boxSizing = "border-box";
+    card.style.flex = "1 1 220px"; 
+    card.style.maxWidth = "220px";
+}
+if (window.innerWidth <= 768) {
+    document.querySelectorAll(".card").forEach(card => {
+        card.style.maxWidth = "100%";
+    });
 }
 function buttonsDivStyle(div) {
     div.style.display = "flex";
