@@ -19,19 +19,19 @@
         </button>
         <ul class="nav-links">
             <hr>
-            <a href="#">
+            <a href="#best-sellers">
                 <i></i>
                 الكتب الأكثر مبيعًا
             </a>
             <hr>
 
-            <a href="#">
+            <a href="#new-arrivals">
                 <i></i>
                 كتب وصلت حديثًا
             </a>
             <hr>
 
-            <a href="#">
+            <a href="#card-container">
                 <i></i>
                 كافة الكتب
             </a>
@@ -66,13 +66,13 @@
         <button id="close-btn" class="close-btn" style="color: #fafafa ;">
             <i class="fa-solid fa-xmark"></i>
         </button>
-        <hr>
+
 
         <a href="index.html">
             <i class="fa-solid fa-house"></i>
             الصفحة الرئيسية
         </a>
-        <hr>
+
         <a href="#">
             <i class="fa-solid fa-cart-shopping">
                 <span id="cart-countSidebar">0</span>
@@ -81,29 +81,29 @@
         </a>
 
 
-        <hr>
+
         <a href="#">
             <i class="fa-solid fa-user"></i>
             الحساب
         </a>
-        <hr>
+
         <a href="#">
             <i></i>
             الكتب الأكثر مبيعًا
         </a>
-        <hr>
-        <hr>
+
+
         <a href="#">
             <i></i>
             كتب وصلت حديثًا
         </a>
-        <hr>
-        <hr>
+
+
         <a href="#">
             <i></i>
             كافة الكتب
         </a>
-        <hr>
+
 
         <button class="logout-btn" style="border:none; background:none; color: #c82333; font-size: 16px;">
             <i class="fa-solid fa-right-from-bracket"></i>
@@ -112,19 +112,82 @@
     </div>
 
 
-    <section>
-        <div>
-            <img src="">
+    <section class="hero">
+       <div class="hero-content">
+            <input id="search-input" type="text" placeholder="ابحث عن كتاب، مؤلف، أو تصنيف...">
+            <ul id="results"></ul>
         </div>
     </section>
 
 
     <section>
         <div>
-            <h2 style="text-align: right; font-size: 30px; color:aliceblue; margin: 15px;">الأكثر مبيعًا</h2>
+            <h2 style="text-align: right; font-size: 30px; color:rgb(9, 55, 95); margin: 15px;">كافة الكتب </h2>
             <div id="card-container"></div>
+
         </div>
     </section>
+
+    <section>
+        <div>
+            <h2 style="text-align: right; font-size: 30px; color:rgb(9, 55, 95); margin: 15px;">الأكثر مبيعًا</h2>
+            <div id="best-sellers"></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2 style="text-align: right; font-size: 30px; color:rgb(9, 55, 95); margin: 15px;">كتب وصلت حديثًا</h2>
+            <div id="new-arrivals"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h3>My Bookstore</h3>
+                <p>
+                    نقدّم لك مكتبة رقمية متكاملة تضم أفضل الكتب والروايات في مختلف التخصصات،
+                    مع تجربة تصفح وشراء سهلة وآمنة.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>تنزيل التطبيق</h4>
+                <a href="#">iOS</a>
+                <a href="#">Android</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>روابط سريعة</h4>
+                <a href="#">استكشاف</a>
+                <a href="#">المستخدمون</a>
+                <a href="#">المختارات</a>
+                <a href="#">التسوق</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>الدعم</h4>
+                <a href="#">مركز المساعدة</a>
+                <a href="#">السياسات</a>
+                <a href="#">شروط الخدمة</a>
+                <a href="#">سياسة الخصوصية</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+            <p>© 2026 My Bookstore</p>
+        </div>
+    </footer>
+
+
 
 
 

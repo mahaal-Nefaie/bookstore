@@ -45,6 +45,7 @@ miniCart.classList.add("mini-cart");
 
 document.body.appendChild(miniCart);
 
+
 function renderCart() {
 
     const cart = getCart();
@@ -123,7 +124,7 @@ function addToCart(book) {
 
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    showMessage(`${book.title} تم إضافته للسلة`);
+    showMessage(` "${book.title}" تم إضافته للسلة`);
 }
 
 minicartBtn.addEventListener("click", () => {
