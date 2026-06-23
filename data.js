@@ -10,9 +10,9 @@ const books = [
     },
     {
         id: 2,
-        title: "The Dremer",
+        title: "The Dreamer",
         price: 50,
-        image: "./img/The Dremer.jpeg",
+        image: "./img/The Dreamer.jpeg",
         author: "John Doe",
         bestSeller: true,
         newArrival: false
