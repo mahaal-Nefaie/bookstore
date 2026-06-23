@@ -18,87 +18,60 @@ const books = [
         newArrival: false
 
     },
-      {
-
+    {
     id: 3,
-    title: "رحلات جلفر",
+    title: "Gulliver's Travels",
     price: 45,
-    image: "https://covers.openlibrary.org/b/id/6979861-L.jpg",
-    author: "جوناثان سويفت",
+    image: "/images/books/gullivers-travels.jpg",
+    author: "Jonathan Swift",
     bestSeller: false,
     newArrival: true
-
-  },
-
-  {
-
+},
+{
     id: 4,
-    title: "روبنسون كروزو",
+    title: "Robinson Crusoe",
     price: 50,
-    image: "https://covers.openlibrary.org/b/id/7222246-L.jpg",
-    author: "دانيال ديفو",
+    image: "/images/books/robinson-crusoe.jpg",
+    author: "Daniel Defoe",
     bestSeller: true,
     newArrival: false
+},
 
-  },
-
-  {
-
+   {
     id: 5,
-    title: "حول العالم في 80 يومًا",
-    price: 65,
-    image: "https://covers.openlibrary.org/b/id/8231856-L.jpg",
-    author: "جول فيرن",
-    bestSeller: false,
-    newArrival: true
-
-  },
-    {
-
-    id: 5,
-    title: "فرانكنشتاين",
+    title: "Frankenstein",
     price: 98,
     image: "https://covers.openlibrary.org/b/id/8232171-L.jpg",
-    author: "ماري شيلي",
-    bestSeller: false,
+    author: "Mary Shelley",
+    bestSeller: true,
     newArrival: false
-
 },
-
 {
-
     id: 6,
-    title: "صورة دوريان غراي",
+    title: "The Picture of Dorian Gray",
     price: 55,
     image: "https://covers.openlibrary.org/b/id/8235116-L.jpg",
-    author: "أوسكار وايلد",
+    author: "Oscar Wilde",
     bestSeller: false,
     newArrival: false
-
 },
-
 {
-
     id: 7,
-    title: "آلة الزمن",
+    title: "The Time Machine",
     price: 70,
     image: "https://covers.openlibrary.org/b/id/8234145-L.jpg",
-    author: "هـ. ج. ويلز",
-    bestSeller: false,
+    author: "H. G. Wells",
+    bestSeller: true,
     newArrival: false
-
 },
-
 {
-
     id: 8,
-    title: "جزيرة الكنز",
+    title: "Treasure Island",
     price: 30,
     image: "https://covers.openlibrary.org/b/id/8235084-L.jpg",
-    author: "روبرت لويس ستيفنسون",
+    author: "Robert Louis Stevenson",
     bestSeller: false,
     newArrival: false
-
 }
 
 ]; 
