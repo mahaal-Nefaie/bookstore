@@ -36,7 +36,7 @@ function createCards(bookArray, container) {
         card.innerHTML = `
     <img src="${book.image}" width="150">
     <h3>${book.title}</h3>
-    <p>${book.price}SAR</p>
+    <p>${book.price}ريال</p>
     <div class="buttons">
         <button class="cart-btn">
             <i class="fa-solid fa-cart-shopping"></i>
