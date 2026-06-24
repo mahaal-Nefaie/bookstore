@@ -106,7 +106,7 @@ searchInput.addEventListener("input", () => {
     );
 
     if(filteredBooks.length === 0) {
-        results.innerHTML = "<li>لم يتم العثور على نتائج.</li>";
+        results.innerHTML = "<li style="direction: rtl; text-align: right;">لم يتم العثور على نتائج.</li>";
         return;
        
     }
