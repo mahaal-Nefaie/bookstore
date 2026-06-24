@@ -78,10 +78,10 @@ header {
 }
 .sidebar{
     position:fixed;
-    top:0;
+    top:80px;
     right:-280px;
     width:250px;
-    height:100vh;
+    height:calc(100vh - 80px);
     background: rgba(5, 131, 248, 0.295);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
