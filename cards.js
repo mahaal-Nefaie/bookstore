@@ -14,7 +14,7 @@ const results = document.getElementById("results");
 
 
 menuBtn.addEventListener("click", () => {
-    sidebar.classList.add("active");
+    sidebar.classList.toggle("active");
 });
 
 closeBtn.addEventListener("click", () => {
