@@ -78,7 +78,7 @@ header {
 }
 .sidebar{
     position:fixed;
-    top:80px;
+    top:60px;
     right:-280px;
     width:250px;
     height:calc(100vh - 80px);
