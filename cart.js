@@ -124,7 +124,7 @@ function addToCart(book) {
 
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    showMessage(` "${book.title}" تم إضافته للسلة`);
+    showMessage(` للسلة "${book.title}" تم إضافة `);
 }
 
 minicartBtn.addEventListener("click", () => {
